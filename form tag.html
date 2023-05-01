@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        Name:<input type="text" value="" required pattern="[a-zA-Z]+" title="only latters...."><br><br>
+        Name:<input type="text" value="" required pattern="[a-zA-Z]{3,5}" title="min 3 and max 5 latters..."><br><br>
+        Mobile:<input type="text" placeholder="enter mobile..." required pattern="[0-9]+" title="only digits..."><br><br>
+        Mobile:<input type="text" placeholder="enter mobile..." required pattern="[0-9]{10}" title="only  10 digits..."><br><br>
+        Email:<input type="email" placeholder="enter email..."><br><br>
+        password:<input type="password" maxlength="8"><br><br>
+        select country:
+        <select>
+            <option hidden>----select country----</option>
+            <option>india</option>
+            <option>canada</option>
+            <option>UK</option>
+            <option>Dubai</option>
+            <option>africa</option>
+            <option disabled>australia</option>
+            <!-- <option selected>Russia</option> -->
+        </select><br><br>
+        date:<input type="date"><br><br>
+        birth date:<input type="datetime-local"><br><br>
+        color:<input type="color"><br><br>
+        range:<input type="range"><br><br>
+
+        Gender:
+        <input type="radio" name="gender">male 
+        <input type="radio" name="gender">female
+        <br><br>
+
+        Languages:
+        <input type="checkbox">gujrati
+        <input type="checkbox">hindi
+        <input type="checkbox">english
+        <input type="checkbox" checked>kanada
+        <input type="checkbox">urdu
+        <br><br>
+
+        <input type="file" multiple><br><br>
+        <textarea row="5" cols="30"></textarea><br><br>
+        
+        <input type="submit" value="register">
+        <input type="reset" value="abc">
+    
+    </form>
+</body>
+</html>
